@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.Arquitetura-1-hex { color: #88A5BF; }
+.Arquitetura-2-hex { color: #838C3B; }
+.Arquitetura-3-hex { color: #736F34; }
+.Arquitetura-4-hex { color: #733C1D; }
+.Arquitetura-5-hex { color: #D9C9C7; }
+
+/* Color Theme Swatches in RGBA */
+.Arquitetura-1-rgba { color: rgba(135, 165, 191, 1); }
+.Arquitetura-2-rgba { color: rgba(130, 140, 58, 1); }
+.Arquitetura-3-rgba { color: rgba(114, 110, 51, 1); }
+.Arquitetura-4-rgba { color: rgba(114, 60, 28, 1); }
+.Arquitetura-5-rgba { color: rgba(216, 200, 199, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Arquitetura-1-hsla { color: hsla(208, 30, 64, 1); }
+.Arquitetura-2-hsla { color: hsla(67, 40, 39, 1); }
+.Arquitetura-3-hsla { color: hsla(56, 37, 32, 1); }
+.Arquitetura-4-hsla { color: hsla(22, 60, 28, 1); }
+.Arquitetura-5-hsla { color: hsla(5, 18, 81, 1); }
+
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to left, #88a5bf, #d9c9c7);
+}
+
+nav {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #733d1d77;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #733d1d77;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+
+}
+
+h1 {
+    background-color: #D9C9C7;
+    color: #733d1d;
+}
+
+p {
+    text-align: justify;
+}

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* Color Theme Swatches in Hex */
+.Spring-Illustration-1-hex { color: #2995D9; }
+.Spring-Illustration-2-hex { color: #148C48; }
+.Spring-Illustration-3-hex { color: #afdfbf; }
+.Spring-Illustration-4-hex { color: #BFA004; }
+.Spring-Illustration-5-hex { color: #BF1304; }
+
+/*
+    HTML é id    - CSS é # (só pode um elemento)
+    HTML é class - CSS é . (pode vários elementos)
+*/
+
+
+body {
+    background-color: #afdfbf;
+    color: #BF1304;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;    
+}
+
+h1 {
+    color: #BFA004;
+}
+h1#principal {
+    background-color: #148C48;
+    color: #afdfbf;
+    text-align: center;
+}
+
+.basic {
+    color: #2995D9;
+    font-weight: bold;
+}
+.intermediary {
+    color: #8404bf;
+}
+.advanced {
+    color: #5f4705;
+}
+.destaque {
+    background-color: #BFA004;
+}

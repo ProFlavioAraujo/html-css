@@ -1,0 +1,22 @@
+@charset "HTML-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'Kaushan Script', serif;
+    font-size: 16px;
+    color: black;
+}
+h1 {
+    font-family: 'Jura', Times, serif;
+    color: blueviolet;
+}
+
+p {
+    font-family: 'Exo', serif;
+}

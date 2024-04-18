@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+/*
+    #   => id
+    .   => class
+    :   => pseudo-class
+    ::  => pseudo-element
+    >   => children
+*/
+
+div.gray {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    height: 190px; /* Altura */
+    width: 190px; /* Largura */
+    margin: 5px;
+}
+div.gray:hover {
+    background-color: blue;
+}
+div#magic > p.escondido {
+    display: none;
+}
+section {
+    display: block;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: justify;
+    height: 200px;
+    width: 615px;
+    margin: 10px;
+}
+section#sec_magic {
+    display: block;
+    background-color: white;
+    border: none;
+    margin: 10px;
+}
+div#magic:hover > p.escondido {
+    display: block;
+    color: white;
+    background-color: red;
+    width: 300px;
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+}
+p {
+    text-indent: 30px;
+    margin: 0px 10px 0px 10px;
+}
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000;
+    text-decoration: none;
+}
+a:visited {
+    color: darkred;
+}
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
