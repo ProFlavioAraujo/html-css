@@ -5,12 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personalização dos fundos</title>
     <style>
-        body {
-            background-image: url();
+        h1 {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+        }
+        div.images {
+            display: block;
+            margin: auto;
+            padding: 10px;
+            height: 1000px;
+            width: 1000px;
+            border: 1px solid lightgreen;
+            background-image: url('https://github.com/gustavoguanabara/html-css/blob/master/imagens/mascote.png?raw=true');
+        }
+        div#q2 {
+            background-repeat: no-repeat;
+        }
+        div#q3 {
+            background-repeat: repeat-x;
+        }
+        div#q4 {
+            background-repeat: repeat-y;
+        }
+        div#q5 {
+            background-repeat: repeat;
+            background-size: 50px;
         }
     </style>
 </head>
 <body>
-    <h1>Teste de Aplicação de Fundo</h1>
+    <h1>Fundo padrão - Sem ajustes da imagem</h1>
+    <div id="q1" class="images"></div>
+    <h1>Fundo sem repetição da imagem</h1>
+    <div id="q2" class="images"></div>
+    <h1>Fundo com repetição apenas no eixo x (HORIZONTAL)</h1>
+    <div id="q3" class="images"></div>
+    <h1>Fundo com repetição apenas no eixo Y (VERTICAL)</h1>
+    <div id="q4" class="images"></div>
+    <h1>Fundo com repetição e ajuste no tamanho</h1>
+    <div id="q5" class="images"></div>
 </body>
 </html>
