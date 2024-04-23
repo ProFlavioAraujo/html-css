@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Aula 07</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Elemento output em formulários HTML</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <main>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Cálculo da idade:</legend>
+                <p>
+                    <label for="i_ano">Ano de nascimento:</label>
+                    <input type="number" name="n_ano" id="i_ano" min="1900" max="2024"
+                    oninput="calcIdade()">
+                </p>
+                <p>
+                    <label for="i_val">Sua idade é </label>
+                    <output name="n_idade" id="i_idade">0</output>.
+                </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+        <script>
+            function calcIdade() {
+                let atual = new Date().getFullYear()
+                i_idade.innerHTML = Number(atual) - Number(i_ano.value)
+            }
+        </script>
+    </main>
+    <footer>
+        <p>By Flávio Araújo</p>
+    </footer>
+</body>
+</html>

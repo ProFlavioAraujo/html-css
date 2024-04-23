@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Aula 06</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <h1>Elementos color, range e file em HTML</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
+    <main>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Unidade Federativa:</legend>
+                <label for="i_estado">Estado</label>
+                <select name="n_estado" id="i_estado">
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">Bahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Profissão:</legend>
+                <label for="i_prof">Profissão</label>
+                <input type="text" name="n_prof" id="i_prof" list="l_prof">
+                <datalist id="l_prof">
+                    <option value="ADM">Administrador</option>
+                    <option value="CONT">Contador</option>
+                    <option value="PROG">Programador</option>
+                    <option value="DEV">Desenvolvedor</option>
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Mensagem:</legend>
+                <label for="i_msg">Mensagem</label><br>
+                <textarea name="n_msg" id="i_msg" cols="70" rows="10"></textarea>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>By Flávio Araújo</p>
+    </footer>
+</body>
+</html>
